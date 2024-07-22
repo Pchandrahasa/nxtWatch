@@ -1,0 +1,81 @@
+/* Main login container */
+.login {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Main content container */
+.login-main-container {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 8px 8px 6px #bfbfbf;
+    background-color: white;
+    width: 400px;
+    height: 400px;
+}
+
+/* Inner content container */
+.login-container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Input fields */
+input {
+    height: 40px;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    color: grey;
+    box-sizing: border-box;
+}
+
+/* Labels */
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* Login button */
+.login-button {
+    background-color: black;
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Hover effect for the login button */
+.login-button:hover {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    transition: all 0.3s ease;
+}
+
+/* Login logo */
+.login-logo {
+    height: 50px;
+    width: auto;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,15 @@
+.game-thumbnail-img{
+    height: 180px;
+    width: 100%;
+    background-size: cover;
+}
+
+.game-video-item{
+    height: 300px;
+    width: 320px;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+
+    
+}

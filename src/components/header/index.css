@@ -1,0 +1,48 @@
+.header-container {
+    display: flex;
+    width: 98%;
+    padding: 10px;
+}
+
+.header-logo-container{
+    flex-grow: 1;
+}
+
+.header-logo {
+    width: 150px; 
+}
+
+.header-logout-container {
+    display: flex;
+    align-items: center;
+}
+
+button{
+    border-style:2px solid black;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+    font-weight: 200;
+    background-color: #ffffff;
+    color: black;
+    padding: 10px;
+}
+
+button:hover{
+    background-color: grey;
+    color: white;
+}
+
+.header-profile{
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header-dark-mode{
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}

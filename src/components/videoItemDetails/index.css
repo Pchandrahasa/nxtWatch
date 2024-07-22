@@ -1,0 +1,25 @@
+.published-count{
+  display: flex;
+}
+
+.count-year-likebutton{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button{
+  margin-left: 10px;
+  padding: 10px;
+  background-color: transparent;
+  color: black;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.icon{
+  margin-right: 5px;
+  align-items: center;
+}
+
+
